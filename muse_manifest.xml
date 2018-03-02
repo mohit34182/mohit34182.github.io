@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mohit34182.github.io" resolutions="1x" timestamp="1519989059284">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mohit34182.github.io" resolutions="1x" timestamp="1519989938232">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
     <file name="index.css" crc="480578372" ref="index"/>
@@ -13,8 +13,8 @@
   </folder>
   <folder name="images">
     <file name="09_gettyimages-478861993_high_resized.jpg" crc="344439289" seo="true" ref="index"/>
-    <file name="u94-7.png" crc="3847281715" ref="index"/>
+    <file name="u94-7.png" crc="4120077062" ref="index"/>
     <file name="u115-4.png" crc="205425788" ref="index"/>
   </folder>
-  <file name="index.html" crc="487822953" seo="true" mt="1519989033994" redirect="true"/>
+  <file name="index.html" crc="4063874046" seo="true" mt="1519989930069" redirect="true"/>
 </manifest>
