@@ -1,0 +1,179 @@
+@import url( //fonts.googleapis.com/css?family=Pacifico&text=Pure );
+@import url( //fonts.googleapis.com/css?family=Roboto:700&text=css );
+@import url( //fonts.googleapis.com/css?family=Kaushan+Script&text=! );
+@import url( //fonts.googleapis.com/css?family=kalam+Script&text=! );
+@import url( https://fonts.googleapis.com/css?family=Lobster );
+* {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.main-container {
+	background: url("Always-winter.jpg") no-repeat top / cover rgb(255, 255, 255); margin: 0px; padding: 0px; left: 0px; top: 0px; width: 100%; height: 100%; position: relative;
+}
+.container {
+	background: rgb(2, 2, 2); margin: 0px auto; padding: 0px; width: 100%; text-align: center; max-width: 450px; box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, .2); -moz-box-shadow: 0 0 15px 2px rgba(0, 0, 0, .2);
+}
+h1 {
+	margin: 40px 0px 10px; color: rgb(255, 255, 255); font-family: "kalam"; font-size: 3em;
+}
+h2 {
+	margin: 0px; color: rgb(0, 21, 255); font-family: "kalam"; font-size: 2.5em; text-shadow: 0px 0px 11px rgba(255,255,255,1);
+}
+h3 {
+	margin: 20px 0px 0px; color: rgb(255, 255, 255); font-family: "kalam"; font-size: 6em;
+}
+p {
+	text-align: center; color: rgb(0, 31, 200); font-family: "Roboto"; font-size: 20px;
+}
+hr {
+	border: currentColor; border-image: none;
+}
+.clear {
+	clear: both;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.hide {
+	display: none;
+}
+.raw-text {
+	font-family: "Lobster",cursive;
+}
+.content-box {
+	margin: 0px 0px 50px; height: 25vh; text-align: left; position: relative;
+}
+.form-container {
+	width: 100%; text-align: center; bottom: 10px; position: fixed; z-index: 99;
+}
+#timer {
+	text-align: center; color: rgb(255, 255, 255); font-family: "kalam"; font-size: 25px; font-weight: bold;
+}
+#timer span {
+	color: rgb(0, 154, 15);
+}
+.stage {
+	margin: auto; left: 0px; top: 0px; right: 0px; bottom: 0px; font-size: 15px; position: absolute; perspective: 9999px; transform-style: preserve-3d;
+}
+.layer {
+	animation:?_? 2s ease-in-out -7.5s infinite alternate forwards; left: 10%; width: 80%; height: 100%; position: absolute; transform: rotateY(40deg) rotateX(33deg) translateZ(0px); transform-style: preserve-3d;
+}
+.layer::after {
+	font: 50px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif; top: 50px; width: 80%; height: 100%; text-align: center; color: rgb(245, 245, 245); letter-spacing: -2px; white-space: pre; position: absolute; font-size-adjust: none; font-stretch: normal; text-shadow: 4px 0px 10px rgba(0,0,0,0.13);
+}
+:nth-child(1).layer::after {
+	transform: translateZ(0px);
+}
+:nth-child(2).layer::after {
+	transform: translateZ(-1.5px);
+}
+:nth-child(3).layer::after {
+	transform: translateZ(-3px);
+}
+:nth-child(4).layer::after {
+	transform: translateZ(-4.5px);
+}
+:nth-child(5).layer::after {
+	transform: translateZ(-6px);
+}
+:nth-child(6).layer::after {
+	transform: translateZ(-7.5px);
+}
+:nth-child(7).layer::after {
+	transform: translateZ(-9px);
+}
+:nth-child(8).layer::after {
+	transform: translateZ(-10.5px);
+}
+:nth-child(9).layer::after {
+	transform: translateZ(-12px);
+}
+:nth-child(10).layer::after {
+	transform: translateZ(-13.5px);
+}
+:nth-child(11).layer::after {
+	transform: translateZ(-15px);
+}
+:nth-child(12).layer::after {
+	transform: translateZ(-16.5px);
+}
+:nth-child(13).layer::after {
+	transform: translateZ(-18px);
+}
+:nth-child(14).layer::after {
+	transform: translateZ(-19.5px);
+}
+:nth-child(15).layer::after {
+	transform: translateZ(-21px);
+}
+:nth-child(16).layer::after {
+	transform: translateZ(-22.5px);
+}
+:nth-child(17).layer::after {
+	transform: translateZ(-24px);
+}
+:nth-child(18).layer::after {
+	transform: translateZ(-25.5px);
+}
+:nth-child(19).layer::after {
+	transform: translateZ(-27px);
+}
+:nth-child(20).layer::after {
+	transform: translateZ(-28.5px);
+}
+:nth-child(n+10).layer::after {
+	-webkit-text-stroke: 3px rgba(0, 0, 0, .25);
+}
+:nth-child(n+11).layer::after {
+	text-shadow: 6px 0px 6px #00366b, 5px 5px 5px #002951, 0px 6px 6px #00366b; -webkit-text-stroke: 15px dodgerblue;
+}
+:nth-child(n+12).layer::after {
+	-webkit-text-stroke: 15px #0077ea;
+}
+:last-child.layer::after {
+	-webkit-text-stroke: 17px rgba(0, 0, 0, .1);
+}
+:first-child.layer::after {
+	color: rgb(255, 255, 255); text-shadow: none;
+}
+.fallingSnow {
+	left: 0px; top: 0px; width: 100%; height: 100%; text-align: center; overflow: hidden; position: absolute;
+}
+.fallingSnow span {
+	background: url("imgs/snowflake.png"); margin: -280px 60px 54px -34px; width: 20px; height: 21px; display: inline-block; -webkit-animation: fallingSnow 12s infinite cubic-bezier(.35, .45, .39, .29); -moz-animation: fallingSnow 12s infinite cubic-bezier(.35, .45, .39, .29);
+}
+.fallingSnow span:nth-child(5n+5) {
+	-webkit-animation-delay: 1.3s; -moz-animation-delay: 1.3s;
+}
+.fallingSnow span:nth-child(3n+2) {
+	-webkit-animation-delay: 1.5s; -moz-animation-delay: 1.5s;
+}
+.fallingSnow span:nth-child(2n+5) {
+	-webkit-animation-delay: 1.7s; -moz-animation-delay: 1.7s;
+}
+.fallingSnow span:nth-child(3n+10) {
+	-webkit-animation-delay: 2.7s; -moz-animation-delay: 2.7s;
+}
+.fallingSnow span:nth-child(7n+2) {
+	-webkit-animation-delay: 3.5s; -moz-animation-delay: 3.5s;
+}
+.fallingSnow span:nth-child(4n+5) {
+	-webkit-animation-delay: 5.5s; -moz-animation-delay: 5.5s;
+}
+.fallingSnow span:nth-child(3n+7) {
+	-webkit-animation-delay: 8s; -moz-animation-delay: 8s;
+}
+input[type='submit'] {
+	background: rgb(245, 28, 222); border-radius: 10px; border: 3px solid rgb(255, 255, 255); animation:nudge 2s linear infinite alternate; border-image: none; width: 35%; height: 60px; color: rgb(22, 22, 18); font-size: 16px; cursor: pointer;
+}
+input[type='text'] {
+	padding: 15px; border-radius: 10px; border: 3px solid rgb(255, 255, 255); animation:nudge 2s linear infinite alternate; border-image: none; width: 100%; height: 60px; color: rgb(22, 22, 18); max-width: 60%; background-color: rgb(247, 128, 10);
+}
+.share-btn {
+	padding: 15px; border-radius: 10px; border: 3px solid rgb(255, 255, 255); animation:nudge 2s linear infinite alternate; border-image: none; width: 100%; height: 60px; text-align: center; bottom: 10px; color: rgb(255, 255, 255); font-size: 20px; text-decoration: none; position: fixed; z-index: 99; background-color: rgb(52, 175, 35);
+}
+.fb-share {
+	top: 10px; bottom: auto; background-color: rgb(0, 132, 255);
+}
